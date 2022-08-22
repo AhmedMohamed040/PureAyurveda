@@ -6,6 +6,9 @@
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+  //  "strictNullChecks": true /* When type checking, take into account 'null' and 'undefined'. */,
+   // "strictFunctionTypes": true /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
@@ -18,10 +21,9 @@
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
-    "lib": [
-      "es2020",
-      "dom"
-    ]
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

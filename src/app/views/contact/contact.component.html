@@ -1,0 +1,88 @@
+<!-- breadcrumb start -->
+<div class="pa-breadcrumb">
+  <div class="container-fluid">
+    <div class="pa-breadcrumb-box">
+      <h1>contact us</h1>
+      <ul>
+        <li><a [routerLink]="['/home']">Home</a></li>
+        <li>contact us</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- breadcrumb end --><!-- contact start -->
+<div class="pa-contact spacer-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+
+      </div>
+      <div class="col-md-5">
+        <div class="pa-contact-form">
+          <form>
+            <input
+              type="text"
+              placeholder="Enater your name"
+              name="full_name"
+              id="full_name"
+              class="require"
+            /><input
+              type="text"
+              placeholder="Enter your email"
+              name="email"
+              id="email"
+              class="require"
+            /><input
+              type="text"
+              placeholder="Enter your subject"
+              name="subject"
+              id="subject"
+              class="require"
+            /><textarea
+              placeholder="Message here"
+              name="message"
+              id="message"
+              class="require"
+            ></textarea
+            ><button type="button" class="pa-btn submitForm">
+              submit
+            </button>
+            <div class="response"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- contact end --><!-- contact detail start -->
+<div class="pa-contact-detail">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="pa-contact-box">
+          <h4>Address</h4>
+          <p>25 LNB Devonshire Street London W1G 7AE</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="pa-contact-box">
+          <h4>Contant no.</h4>
+          <p>+001 4567891236</p>
+          <p>+001 7894561230</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="pa-contact-box">
+          <h4>Email</h4>
+          <p>support@pureaurveda.com</p>
+          <p>support.pureaurveda@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- contact detail end -->
+
+<!--start footer-->
+<app-footer></app-footer>
+<!--end footer-->

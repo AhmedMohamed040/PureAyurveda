@@ -1,0 +1,96 @@
+<!-- breadcrumb start -->
+<div class="pa-breadcrumb">
+  <div class="container-fluid">
+    <div class="pa-breadcrumb-box">
+      <h1>checkout</h1>
+      <ul>
+        <li><a [routerLink]="['/home']">Home</a></li>
+        <li>checkout</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- breadcrumb end --><!-- checkout start -->
+<div class="pa-checkout spacer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="pa-bill-form">
+          <form (submit)="save()" [formGroup]="csmForm" novalidate>
+            <label class="pa-bill-title">Billing details </label
+            ><label
+              ><span>Full Name</span
+              ><input
+                type="text"
+
+                formControlName="fullName"
+                [ngClass]="{'is-invalid': (csmForm.get('fullName')?.touched || csmForm.get('fullName')?.dirty) && !csmForm.get('fullName')?.valid}"/>
+                </label
+            ><label
+              ><span>Mobile</span
+              ><input type="number"  formControlName="mobile"
+              [ngClass]="{'is-invalid': (csmForm.get('mobile')?.touched || csmForm.get('mobile')?.dirty) && !csmForm.get('mobile')?.valid}"/></label
+            ><label
+            ><span>Email</span
+            ><input type="email"  formControlName="email"
+            [ngClass]="{'is-invalid': (csmForm.get('email')?.touched || csmForm.get('email')?.dirty) && !csmForm.get('email')?.valid}"/></label
+          ><label
+              ><span>Address</span
+              ><input type="text"  formControlName="address"
+              [ngClass]="{'is-invalid': (csmForm.get('address')?.touched || csmForm.get('address')?.dirty) && !csmForm.get('address')?.valid}"/></label
+            ><label
+              ><span>State</span
+              ><input type="text"  formControlName="state"
+              [ngClass]="{'is-invalid': (csmForm.get('state')?.touched || csmForm.get('state')?.dirty) && !csmForm.get('state')?.valid}"/></label
+            ><label
+              ><span>City</span
+              ><input type="text"  formControlName="city"
+              [ngClass]="{'is-invalid': (csmForm.get('city')?.touched || csmForm.get('city')?.dirty) && !csmForm.get('city')?.valid}"/></label
+            >
+            <div class="pa-place-order-btn"
+            >
+              <button
+                class="pa-btn"
+                type="submit"
+                aria-disabled="true"
+
+              >
+              <!-- [style.pointer-events]="!csmForm.valid? 'none' : 'painted' " -->
+                place order
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="pa-bill-detail">
+          <p class="pa-bill-title">Order details</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Product name</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let product of products">
+                <td>{{ product.productName }}</td>
+                <td>${{ product.price }}</td>
+              </tr>
+
+              <tr class="pa-checkout-total">
+                <td>Grand Total</td>
+                <td>${{ total >= 10 ? (total - ((18 * total) / 100)) : 0  }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- checkout end -->
+
+<!--start footer-->
+<app-footer></app-footer>
+<!--end footer-->
