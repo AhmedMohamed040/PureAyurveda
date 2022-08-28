@@ -23,3 +23,182 @@ Before we get started, keep in mind:
 
   * You are initializing within an existing Firebase project directory
 
+[debug] [2022-08-22T15:44:27.819Z] ----------------------------------------------------------------------
+[debug] [2022-08-22T15:44:27.834Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-08-22T15:44:27.835Z] CLI Version:   11.7.0
+[debug] [2022-08-22T15:44:27.835Z] Platform:      win32
+[debug] [2022-08-22T15:44:27.835Z] Node Version:  v16.14.0
+[debug] [2022-08-22T15:44:27.978Z] Time:          Mon Aug 22 2022 17:44:27 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-08-22T15:44:27.979Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as doompop40@gmail.com
+[debug] [2022-08-22T15:44:39.054Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-22T15:48:00.039Z] ----------------------------------------------------------------------
+[debug] [2022-08-22T15:48:00.047Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-22T15:48:00.048Z] CLI Version:   11.7.0
+[debug] [2022-08-22T15:48:00.049Z] Platform:      win32
+[debug] [2022-08-22T15:48:00.049Z] Node Version:  v16.14.0
+[debug] [2022-08-22T15:48:02.316Z] Time:          Mon Aug 22 2022 17:48:00 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-08-22T15:48:02.317Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-22T15:48:02.480Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-22T15:48:02.482Z] > authorizing via signed-in user (doompop40@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\work\workspace\projects\PureAyurveda
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-22T15:51:51.557Z] Using project from CLI flag: pure-ayurveda
+[debug] [2022-08-22T15:51:51.635Z] > refreshing access token with scopes: []
+[debug] [2022-08-22T15:51:51.799Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-22T15:51:51.800Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-22T16:12:50.258Z] ----------------------------------------------------------------------
+[debug] [2022-08-22T16:12:50.267Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-22T16:12:50.269Z] CLI Version:   11.7.0
+[debug] [2022-08-22T16:12:50.270Z] Platform:      win32
+[debug] [2022-08-22T16:12:50.270Z] Node Version:  v16.14.0
+[debug] [2022-08-22T16:12:50.316Z] Time:          Mon Aug 22 2022 18:12:50 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-08-22T16:12:50.317Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-22T16:12:50.598Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-22T16:12:50.599Z] > authorizing via signed-in user (doompop40@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\work\workspace\projects\PureAyurveda
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-22T16:13:44.947Z] Using project from CLI flag: pure-ayurveda
+[debug] [2022-08-22T16:13:44.990Z] > refreshing access token with scopes: []
+[debug] [2022-08-22T16:13:44.996Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-22T16:13:44.997Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-22T16:13:45.574Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-08-22T16:13:45.575Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-22T16:13:45.661Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pure-ayurveda [none]
+[debug] [2022-08-22T16:13:46.237Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pure-ayurveda 403
+[debug] [2022-08-22T16:13:46.237Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pure-ayurveda {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-08-22T16:13:46.239Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-08-22T16:13:46.611Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project pure-ayurveda. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-08-22T16:15:39.930Z] ----------------------------------------------------------------------
+[debug] [2022-08-22T16:15:39.936Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-08-22T16:15:39.937Z] CLI Version:   11.7.0
+[debug] [2022-08-22T16:15:39.937Z] Platform:      win32
+[debug] [2022-08-22T16:15:39.938Z] Node Version:  v16.14.0
+[debug] [2022-08-22T16:15:39.945Z] Time:          Mon Aug 22 2022 18:15:39 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-08-22T16:15:39.946Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as doompop40@gmail.com
+[debug] [2022-08-22T16:15:50.229Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-22T16:17:03.926Z] ----------------------------------------------------------------------
+[debug] [2022-08-22T16:17:03.931Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-22T16:17:03.933Z] CLI Version:   11.7.0
+[debug] [2022-08-22T16:17:03.933Z] Platform:      win32
+[debug] [2022-08-22T16:17:03.934Z] Node Version:  v16.14.0
+[debug] [2022-08-22T16:17:05.515Z] Time:          Mon Aug 22 2022 18:17:03 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-08-22T16:17:05.516Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-22T16:17:05.753Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-22T16:17:05.754Z] > authorizing via signed-in user (doompop40@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\work\workspace\projects\PureAyurveda
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-22T16:17:40.802Z] Using project from CLI flag: pure-ayurveda
+[debug] [2022-08-22T16:17:40.812Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pure-ayurveda [none]
+[debug] [2022-08-22T16:17:48.982Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pure-ayurveda 403
+[debug] [2022-08-22T16:17:48.983Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pure-ayurveda {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-08-22T16:17:48.985Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-08-22T16:17:54.003Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-22T16:18:33.367Z] ----------------------------------------------------------------------
+[debug] [2022-08-22T16:18:33.373Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2022-08-22T16:18:33.374Z] CLI Version:   11.7.0
+[debug] [2022-08-22T16:18:33.374Z] Platform:      win32
+[debug] [2022-08-22T16:18:33.375Z] Node Version:  v16.14.0
+[debug] [2022-08-22T16:18:33.568Z] Time:          Mon Aug 22 2022 18:18:33 GMT+0200 (Eastern European Standard Time)
+[debug] [2022-08-22T16:18:33.569Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-22T16:18:33.774Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-22T16:18:33.776Z] > authorizing via signed-in user (doompop40@gmail.com)
+[debug] [2022-08-22T16:18:33.786Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2022-08-22T16:18:36.327Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-22T16:18:36.327Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] 
+[info] Created alias pure-ayurveda for pure-ayurveda-b4dcc.
+[info] Now using alias pure-ayurveda (pure-ayurveda-b4dcc)
+[debug] [2022-08-22T16:19:19.128Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Pocke\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.

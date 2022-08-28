@@ -6,7 +6,6 @@ import { ProductService } from 'src/app/modules/product.service';
 
 import { faStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fuStar } from '@fortawesome/free-solid-svg-icons';
-import { PRODUCTS } from 'src/app/modules/products-data';
 import { Observable, Subscription } from 'rxjs';
 
 @Component({
@@ -17,7 +16,6 @@ import { Observable, Subscription } from 'rxjs';
 export class ProductComponent implements OnInit {
   cart: Product | undefined;
   showSide = false;
-  carts: Product[] = PRODUCTS;
   fStar = faStar;
   fuStar = fuStar;
   counter = Array;

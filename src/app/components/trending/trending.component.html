@@ -19,11 +19,11 @@
           delay: 2500,
           disableOnInteraction: false
         }"
-        [navigation]="{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev'}"
+        [navigation]="{ nextEl: '.swp-nxt', prevEl: '.swp-prv'}"
         [breakpoints]="points"
         #swiper
-      >
-      <ng-template swiperSlide *ngFor="let cart of carts">
+       >
+        <ng-template swiperSlide *ngFor="let cart of carts">
         <div class="swiper-slide" >
         <div class="pa-product-box">
           <div class="pa-product-img">
@@ -118,11 +118,11 @@
         </div>
       </div>
 
-      </ng-template>
-      </swiper>
+       </ng-template>
+        </swiper>
         <!-- Add Arrows -->
-        <div  class="swiper-button-prev"></div>
-        <div  class="swiper-button-next"></div>
+        <div  class="swiper-button-prev swp-nxt"></div>
+        <div  class="swiper-button-next swp-prv"></div>
       </div>
     </div>
   </div>
@@ -139,7 +139,20 @@
     </div>
     <div class="row">
       <div class="swiper-container">
-        <div class="swiper-wrapper">
+        <swiper class="mySwiper"
+        [slidesPerView]="1"
+        [loop]="true"
+        [spaceBetween]="0"
+        [speed]="1500"
+        [centeredSlides]="true"
+        [autoplay]="{
+          delay: 3000,
+          disableOnInteraction: false
+        }"
+        [navigation]="{ nextEl: '.swp-next', prevEl: '.swp-prev'}"
+        #subSwiper>
+
+        <ng-template swiperSlide *ngFor="let cart of carts">
           <div class="swiper-slide">
             <div class="pa-tesimonial-box">
               <div class="pas-testi-img">
@@ -149,7 +162,7 @@
                   class="img-fluid"
                 />
               </div>
-              <div class="pas-testi-content">
+              <div  class="pas-testi-content">
                 <h2>John Doe</h2>
                 <p>
                   Ut enim ad minim veniam,quis nostrud exercitation
@@ -161,12 +174,14 @@
               </div>
             </div>
           </div>
-        </div>
+          </ng-template>
         <!-- Add Arrows -->
-        <div class="pa-tesimonial-button">
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
+
+      </swiper>
+      <div class="pa-tesimonial-button">
+        <div class="swiper-button-next swp-next"></div>
+        <div class="swiper-button-prev swp-prev"></div>
+      </div>
       </div>
     </div>
   </div>

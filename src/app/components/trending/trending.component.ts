@@ -32,6 +32,8 @@ export class TrendingComponent implements OnInit {
   @Input() sideTrending:any = false;
 
   @ViewChild('swiper', { static: false }) swiper!: SwiperComponent;
+  @ViewChild('subSwiper', { static: false }) subSwiper!: SwiperComponent;
+
 
 
 
